@@ -1,0 +1,256 @@
+
+.group:after{
+	content:"";
+	display: table;
+	clear:both;
+}
+
+h4{
+	color: rgb(255, 60, 31);
+}
+h2{
+	padding-top: 0.5em;
+	color: #1d2c74;
+}
+
+
+i{
+	color:rgb(255, 60, 31);
+}
+
+a{
+	text-decoration: none;
+	color: #444;
+}
+
+img{
+	width: 100%;
+	height: auto;
+	-moz-border-radius: 0.25em;
+	-webkit-border-radius: 0.25em;
+	border-radius: 0.25em;
+
+}
+
+.footer{
+	margin:.5em 0;
+}
+
+.footer p{
+	color: #7e7f84;
+	font-size: 14px;
+	margin:0;
+	text-align: center;
+}
+
+.logo{
+	white-space:nowrap;
+	color: #1d2c74;
+
+}
+.container{
+	max-width: 95%;
+	margin: auto;
+}
+.clear{
+	clear:both;
+}
+
+.main>article{
+	margin-bottom: 2em;
+	position: relative;
+}
+
+ul a{
+	display: block;
+	line-height: 1.61em;
+	text-transform:uppercase;
+	padding: 0.25em 0 0.25em 2em;
+
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+ul a:hover, .button{
+	color:rgb(255, 60, 31);
+
+}
+
+.get-bottom input[type="text"] {
+	width: 90%;
+	padding: 10px 12px;
+	margin: 7px 0px;
+	outline: none !important;
+	background: rgba(153, 153, 153, 0.09);
+	color: #33383b;
+	font-size: 15px;
+	box-shadow: 1px 1px 1px 1px rgba(51, 56, 59, 0.35);
+	-webkit-box-shadow: 1px 1px 1px 1px rgba(51, 56, 59, 0.35);
+	-moz-box-shadow: 1px 1px 1px 1px rgba(51, 56, 59, 0.35);
+	-o-box-shadow: 1px 1px 1px 1px rgba(51, 56, 59, 0.35);
+	-ms-box-shadow: 1px 1px 1px 1px rgba(51, 56, 59, 0.35);
+	border: none;
+	border-radius: 0.3em;
+	-webkit-border-radius: 0.3em;
+	-moz-border-radius: 0.3em;
+	-o-border-radius: 0.3em;
+	-ms-border-radius: 0.3em;
+}
+
+.get-bottom textarea {
+	resize: none;
+	width: 90%;
+	color: #898888;
+	font-size: 16px;
+	margin-top: 10px;
+	outline: none;
+	padding: 10px 10px;
+	border: none;
+	min-height: 12em;
+	background: rgba(153, 153, 153, 0.09);
+	-webkit-appearance: none;
+	box-shadow: 1px 1px 1px 1px rgba(51, 56, 59, 0.35);
+	-webkit-box-shadow: 1px 1px 1px 1px rgba(51, 56, 59, 0.35);
+	-moz-box-shadow: 1px 1px 1px 1px rgba(51, 56, 59, 0.35);
+	-o-box-shadow: 1px 1px 1px 1px rgba(51, 56, 59, 0.35);
+	-ms-box-shadow: 1px 1px 1px 1px rgba(51, 56, 59, 0.35);
+	border-radius: 0.3em;
+	-webkit-border-radius: 0.3em;
+	-moz-border-radius: 0.3em;
+	-o-border-radius: 0.3em;
+	-ms-border-radius: 0.3em;
+}
+
+.get-btn input[type="submit"] {
+	background: #171717;
+	border: 0px;
+	padding: 6px 14px;
+	margin: 0px 0px 0px 0em;
+	outline: none;
+	color: #fff;
+	box-shadow: 1px 1px 1px 1px rgba(153, 153, 153, 0.55);
+	-webkit-box-shadow: 1px 1px 1px 1px rgba(153, 153, 153, 0.55);
+	-moz-box-shadow: 1px 1px 1px 1px rgba(153, 153, 153, 0.55);
+	-o-box-shadow: 1px 1px 1px 1px rgba(153, 153, 153, 0.55);
+	-ms-box-shadow: 1px 1px 1px 1px rgba(153, 153, 153, 0.55);
+	font-size: 22px;
+}
+
+.get-btn [type="submit"]:hover{
+	background: #e9b10a;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+.get-btm-top {
+	margin-top: 1.75em;
+}
+
+.get-btn {
+	margin-top: 2em;
+}
+
+.get-bottom label{
+	font-size:1.1em;
+	color: rgb(255, 60, 31);
+	display: block;
+	margin-top: 1em;
+}
+
+.contact-but input[type="submit"] {
+	border: none;
+	outline: none;
+	color: #fff;
+	background: #31353e;
+	padding: 10px 20px;
+	font-size: 1.5em;
+	font-weight: 600;
+	margin-top: 1.5em;
+	-webkit-appearance: none;
+}
+
+.contact-but input[type="submit"]:hover{
+	background: rgb(255, 60, 31);
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+	-o-transition: 0.5s all;
+}
+
+@media only screen and (min-width: 20em) {
+
+	ul li{
+		width: 33.333333%;
+		float: left;
+	}
+}
+
+@media only screen and (min-width: 40em) {
+
+
+	ul li{
+		width: 60%;
+		float: none;
+	}
+
+	header{
+		width: 35%;
+		position: fixed;
+	}
+
+	.main{
+		width: 65%;
+		float: right;
+	}
+
+	footer{
+		clear:both;
+	}
+}
+
+@media only screen and (min-width: 50em) {
+
+	.main>article{
+		width: 47%;
+		float:left;
+	}
+
+	.main>article:nth-of-type(2n+1){
+		clear:both;
+	}
+
+	.main>article:not(:nth-of-type(2n+1)){
+		margin-left: 5%;
+	}
+
+	.get-bottom input[type="text"] {
+		width: 100%;
+	}
+	.get-bottom textarea {
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 60em) {
+
+	header{
+		width: 25%;
+		
+	}
+
+	.main{
+		width: 75%;
+
+	}
+
+	.main>article{
+		width: 32%;
+		float:left;
+	}
+}
